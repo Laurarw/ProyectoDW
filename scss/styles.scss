@@ -1,0 +1,38 @@
+$colorPastillas: #E4ED2D;
+
+.infoProyecto{
+    margin-top: 90px;
+    width: 100%;
+}
+
+.pastillas{
+    span {
+        margin-right: 20px;
+        border: solid 1px $colorPastillas;
+        background-color: $colorPastillas;
+        border-radius: 10px;
+        padding: 5px;
+    }
+}
+
+.capturas{
+    margin-top: 2%;
+    display: flex;
+    //flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+
+    img{
+        width: 200px;
+        margin-bottom: 10px;
+
+    }
+}
+
+.botonesInfo{
+    a{
+        margin-right: 10px;
+    }
+}
