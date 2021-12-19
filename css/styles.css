@@ -1,3 +1,15 @@
+.displayFlex, header nav ul {
+  display: flex;
+  flex-wrap: wrap; }
+
+header nav ul {
+  justify-content: center;
+  align-items: center; }
+
+.space {
+  width: 200px;
+  height: 100%; }
+
 .infoProyecto {
   margin-top: 90px;
   width: 100%; }

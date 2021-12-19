@@ -1,5 +1,32 @@
 $colorPastillas: #E4ED2D;
 
+.displayFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    nav{
+        ul{
+            @extend .displayFlex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@mixin alto-ancho($alto,$ancho){
+    width: $ancho;//100%;
+    height: $alto;//200px;
+}
+
+.space{
+    @include alto-ancho(100%,200px);
+}
+
+
+
+
 .infoProyecto{
     margin-top: 90px;
     width: 100%;

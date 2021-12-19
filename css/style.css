@@ -44,12 +44,12 @@
         z-index: 1000;
     }
     
-    header nav ul {
+    /* header nav ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-    }
+    } */
     
     li {
         list-style: none;
@@ -73,7 +73,7 @@
         
     }
     .box{
-        width: 100vw;
+        width: 98vw;
         height: 100vh;
     }
     
@@ -144,10 +144,10 @@
         width: 30%;
     }
     
-    .space {
+    /* .space {
         width: 100%;
         height: 200px;
-    }
+    } */
     
     .sectionTecnologias {
         padding-top: 20%;
