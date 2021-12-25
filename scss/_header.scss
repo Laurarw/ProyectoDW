@@ -1,0 +1,36 @@
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(41, 36, 36, 0.56);
+    z-index: 1000;
+    nav{
+        ul{
+            @include container-header-footer;
+        }
+    }
+}
+.menu{
+    li{
+        list-style: none;
+        transition: all 1s;
+        a{
+            color: $color_font_white;
+            text-decoration: none;
+            padding: 50px;
+            &:hover{
+                color: $color_action;
+            }
+        }
+        &:hover{
+            transform: scale(1.5);
+        }
+    }
+    
+
+}

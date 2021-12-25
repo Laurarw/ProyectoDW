@@ -1,0 +1,44 @@
+
+
+.infoProyecto{
+    margin-top: 90px;
+    width: 100%;
+    h1{
+        color: $color_font_dark;
+    }
+   
+}
+
+.pastillas{
+    span {
+        margin-right: 20px;
+        border: solid 1px $colorPastillas;
+        background-color: $colorPastillas;
+        border-radius: 10px;
+        padding: 5px;
+        color: $color_font_white;
+    }
+}
+
+.capturas{
+    margin-top: 2%;
+    display: flex;
+    //flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+
+    img{
+        width: 200px;
+        margin-bottom: 10px;
+
+    }
+    
+}
+
+.botonesInfo{
+    a{
+        margin-right: 10px;
+    }
+}

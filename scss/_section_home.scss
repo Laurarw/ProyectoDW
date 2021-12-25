@@ -1,0 +1,29 @@
+.sectionHome {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    @include flex-column;
+    h1{
+        font-size: $font_size_title;
+        font-family: 'Alegreya SC', serif;
+        color: $color_font_white;
+    }
+    p{
+        
+        /* text-align: center;   */
+        width: 588px;
+        color: $color_font_white;
+        line-height: 38px;
+        padding-bottom: 12px;
+        padding-top: 11px;
+        font-size: $font_size_text;
+        line-height: 190%;
+        text-align: justify;
+    }
+       
+}

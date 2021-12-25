@@ -1,0 +1,112 @@
+ /* sm */
+ @media only screen and (max-width: 576px) {
+     header{
+         nav{
+             ul{
+                 li{
+                     a{
+                        padding: 10px;
+                    }
+                     }
+                 }
+             }
+         }
+     }
+    
+/* md */
+@media only screen and (max-width: 768px) {
+    .card-h {
+        margin: 30px 30px 30px 0px;
+        display: grid;
+        grid-template-areas: "img titulo" "img info" "img btn";
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 10px;
+        width: 80%;
+        .titulo{
+            grid-area: titulo;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1{
+            font-size: 2.5em;   
+            margin: 76px 10px 10px 10px;    
+        }
+    }
+    header{
+        nav{
+            ul{
+                li{
+                    a{
+                       padding: 20px;
+                    }
+                }
+                }
+            }
+        }
+    
+
+   
+   
+  
+    .sectionHome{
+        p {
+        
+            /* text-align: center;   */
+            width: 500px;
+        
+            font-size: 1rem;
+        
+        }
+    } 
+    .sectionContacto{
+
+        p {
+            width: 72%;
+        
+        }
+
+    } 
+}
+/* lg */
+@media only screen and (max-width: 992px) {
+.sectionContacto{
+    p {
+        width: 54%;
+    
+    }
+    h1{
+        margin: 120px 10px 10px 10px;
+    }
+} 
+}
+
+
+/* xl */
+@media only screen and (max-width: 1200px) {
+    .sectionContacto{
+        // h1{
+        //     margin: 120px 10px 10px 10px;
+        // }
+        p{
+            width: 45%;
+    
+        }
+    } 
+}
+    
+
+// @media only screen and (max-width: 1400px) {
+//     .sectionContacto{
+//         // h1{
+//         //     margin: 166px 10px 10px 10px;
+//         // }
+//         p {
+//             width: 38%;
+        
+//         }
+//     } 
+// }

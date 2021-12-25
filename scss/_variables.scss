@@ -1,0 +1,44 @@
+$color_action: #8EC92F;//#48912F
+$color_sec: #FDFDFF;//#48912F
+$colorPastillas:#5d851d;
+$color_font_dark: #202021;
+$color_font_white: #FDFDFF;
+$color_input: #85858b;
+$font_size_title: 3em;
+$font_size_subtitle: 20px;
+$font_size_text: 18px;
+
+@mixin container-header-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+@mixin flex-column{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+@mixin flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+   
+}
+
+@mixin button($color_back,$border_color,$margin_uno:0.25rem,$margin_dos:0.125rem){
+    margin: $margin_uno $margin_dos;    
+    background-color: $color_back;
+    border-color: $border_color;
+    color: $color_font_white;
+       
+   
+}

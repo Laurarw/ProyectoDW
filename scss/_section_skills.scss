@@ -1,0 +1,16 @@
+.img-inline {
+    width: 100%;
+    @include flex-row;
+    img{
+        width: 100px;
+        height: 100px;
+        margin: 2px;
+    }
+}
+.sectionTecnologias{
+    .row{
+        div:first-child{
+            align-self: center;
+        }
+    } 
+}
