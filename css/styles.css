@@ -21,7 +21,7 @@ h1 {
   color: #FDFDFF; }
 
 h2 {
-  color: #FDFDFF; }
+  color: #202021; }
 
 .button-prim {
   margin: 0.25rem 0.125rem;
@@ -96,7 +96,7 @@ header {
     color: #FDFDFF; }
   .sectionHome p {
     /* text-align: center;   */
-    width: 588px;
+    width: 289px;
     color: #FDFDFF;
     line-height: 38px;
     padding-bottom: 12px;
@@ -124,8 +124,10 @@ header {
 .sectionProyectos {
   margin-top: 5%; }
   .sectionProyectos .card-group {
-    width: 80%;
+    width: 100%;
     justify-content: center; }
+  .sectionProyectos .card-proyect {
+    margin-right: 14px; }
 
 .infoProyecto {
   margin-top: 90px;
@@ -154,6 +156,9 @@ header {
 
 .botonesInfo a {
   margin-right: 10px; }
+
+.section-captura h2 {
+  color: #FDFDFF; }
 
 .sectionContacto {
   width: 100%;
