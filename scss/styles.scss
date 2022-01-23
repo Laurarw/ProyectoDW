@@ -1,40 +1,34 @@
 @import 'variables';
-@import 'generales';
-@import 'header';
-@import 'section';
-@import 'section_home';
-@import 'section_skills';
-@import 'section_proyectos';
-@import 'info_proyecto';
-@import 'section_contacto';
-@import 'footer';
-@import 'mediaQ';
+@import 'generales'; 
+ @import 'header'; 
+
+ @import 'section_home';
+ //@import 'section';
+ @import 'section_skills';
+ @import 'section_proyectos';
+ @import 'info_proyecto';
+ @import 'section_contacto';
+ @import 'footer';
+ @import 'mediaQ';
 
 
 
 
-.displayFlex{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-// header{
-//     nav{
-//         ul{
-//             @extend .displayFlex;
-//             justify-content: center;
-//             align-items: center;
-//         }
-//     }
+// .displayFlex{
+//     display: flex;
+//     flex-wrap: wrap;
 // }
 
-@mixin alto-ancho($alto,$ancho){
-    width: $ancho;//100%;
-    height: $alto;//200px;
-}
 
-.space{
-    @include alto-ancho(100%,200px);
-}
+
+// @mixin alto-ancho($alto,$ancho){
+//     width: $ancho;//100%;
+//     height: $alto;//200px;
+// }
+
+// .space{
+//     @include alto-ancho(100%,200px);
+// }
+
 
 

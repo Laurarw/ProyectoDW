@@ -1,16 +1,44 @@
-.img-inline {
+#tecnologias{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-inline{
     width: 100%;
     @include flex-row;
-    img{
-        width: 100px;
-        height: 100px;
-        margin: 2px;
-    }
+        img{
+            width: 100px;
+            height: 100px;
+            margin: 2px;
+        }
 }
 .sectionTecnologias{
+    
     .row{
         div:first-child{
             align-self: center;
         }
     } 
 }
+
+
+
+// .img-inline {
+//     width: 100%;
+//     @include flex-row;
+//     img{
+//         width: 100px;
+//         height: 100px;
+//         margin: 2px;
+//     }
+// }
+// .sectionTecnologias{
+//     .row{
+//         div:first-child{
+//             align-self: center;
+//         }
+//     } 
+// }

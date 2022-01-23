@@ -10,9 +10,13 @@ $font_size_text: 18px;
 
 @mixin container-header-footer{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    margin: 0.8rem;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: center;
+    // align-items: center;
    
 }
 @mixin flex-column{

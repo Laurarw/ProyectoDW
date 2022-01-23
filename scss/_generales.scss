@@ -2,19 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    // outline: 1px solid red;
 }
     
 html {
     scroll-behavior: smooth;
+    max-width: 100%;
 }
     
 body {
     background-color: $color_font_white;
     font-family: 'Roboto', sans-serif;
     color: $color_font_dark;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: wrap;
+    font-size: 16px;
+    width: fit-content;
     /* background: rgba(0, 0, 0, 0,56); */
 }
 h1{
@@ -37,3 +41,4 @@ h2{
     color: $color_font_dark;
     
 }
+

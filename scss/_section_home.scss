@@ -1,29 +1,85 @@
+.imagen-fondo {
+    background-image: url(../images/home.jpg);
+    background-color: dimgrey;
+    filter: blur(4px);
+    width: 100%;
+    height: 100vh;
+    //z-index: 1;
+
+}
+#home{
+   //position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 100vh;
+}
+
+
 .sectionHome {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 500;
-    width: 80%;
-    padding: 20px;
-    text-align: center;
+    //background-image: url('images/home.jpg');
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
     position: absolute;
-    @include flex-column;
+     z-index: 700;
+     text-align: center;
+     width: 100%;
+
+    // padding: 20px;
+    // text-align: center;
+    // position: absolute;
+    // @include flex-column;
     h1{
-        font-size: $font_size_title;
-        font-family: 'Alegreya SC', serif;
-        color: $color_font_white;
+         font-size: $font_size_title;
+         font-family: 'Alegreya SC', serif;
+         color: $color_font_white;
     }
     p{
         
         /* text-align: center;   */
-        width: 289px;
-        color: $color_font_white;
-        line-height: 38px;
-        padding-bottom: 12px;
-        padding-top: 11px;
-        font-size: $font_size_text;
-        line-height: 190%;
-        text-align: justify;
+        // width: 289px;
+         color: $color_font_white;
+         line-height: 38px;
+        // padding-bottom: 12px;
+        // padding-top: 11px;
+         font-size: $font_size_text;
+         line-height: 190%;
+         text-align: center;
     }
        
 }
+
+
+
+
+// .sectionHome {
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     z-index: 500;
+//     width: 80%;
+//     padding: 20px;
+//     text-align: center;
+//     position: absolute;
+//     @include flex-column;
+//     h1{
+//         font-size: $font_size_title;
+//         font-family: 'Alegreya SC', serif;
+//         color: $color_font_white;
+//     }
+//     p{
+        
+//         /* text-align: center;   */
+//         width: 289px;
+//         color: $color_font_white;
+//         line-height: 38px;
+//         padding-bottom: 12px;
+//         padding-top: 11px;
+//         font-size: $font_size_text;
+//         line-height: 190%;
+//         text-align: justify;
+//     }
+       
+// }
